@@ -10,6 +10,8 @@ from colorama import init, Fore, Style
 __author__	 	= 'QD'
 __copyright__   = 'Copyright (C) 2015 QD'
 __version__ 	= '0.2'
+__email__ 		= 'inside.QD@googlemail.com'
+__github__		= 'https://github.com/DestructiveInfluence/StarVote'
 
 securit_ascii =['    ______          _   __     __   \n',
 				'   / __/ /____ ____| | / /__  / /____  \n',
