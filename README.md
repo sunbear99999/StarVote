@@ -6,10 +6,11 @@ Usage:
 * Get unique 6 digit link ID of submission or comment from URL
 * Wait and be happy
 
+
 Functions:
 * Upvote submissions and comments
 * Register Reddit accounts
-* 
+
 
 Todo:
 * Changeable user-agent *easy*
