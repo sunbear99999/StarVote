@@ -5,12 +5,12 @@ import time
 import sys
 from random import randint
 
-__author__	 	= 'QD'
+__author__	= 'QD'
 __copyright__   = 'Copyright (C) 2015 QD'
 __version__ 	= '0.2'
-__email__ 		= 'inside.QD@googlemail.com'
-__github__		= 'http://github.com/DestructiveInfluence/StarVote'
-__python__		= '2.7'
+__email__ 	= 'inside.QD@googlemail.com'
+__github__	= 'http://github.com/DestructiveInfluence/StarVote'
+__python__	= '2.7'
 
 headers = {'user-agent':'StarVote 0.2 by QD'}
 sleepTimer = 3
@@ -122,9 +122,9 @@ def switch(x):
 
 def welcome():
 	securit_ascii =['    ______          _   __     __   \n',
-					'   / __/ /____ ____| | / /__  / /____  \n',
-					'  _\ \/ __/ _ `/ __/ |/ / _ \/ __/ -_) \n',
-					' /___/\__/\_,_/_/  |___/\___/\__/\__/ \n']
+			'   / __/ /____ ____| | / /__  / /____  \n',
+			'  _\ \/ __/ _ `/ __/ |/ / _ \/ __/ -_) \n',
+			' /___/\__/\_,_/_/  |___/\___/\__/\__/ \n']
 	print('')
 	print('')
 	print('')
