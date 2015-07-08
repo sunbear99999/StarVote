@@ -13,9 +13,9 @@ Functions:
 
 
 Todo:
-* Changeable user-agent *easy*
-* Optimize user interface *easy*
-* Use proxies for voting *hard*
+* Changeable user-agent - *easy*
+* Optimize user interface - *easy*
+* Use proxies for voting - *hard*
 
 
 Dependencies: requests, colorama
