@@ -12,7 +12,7 @@ __email__     = 'QD@dstrctv.io'
 __github__    = 'http://github.com/DestructiveInfluence/StarVote'
 __python__    = '2.7'
 
-headers = {'user-agent':'StarVote 0.2 by QD'}
+headers = {'user-agent':'StarVote 0.3a by QD'}
 sleepTimer = 3
 
 # Flexible Headers
@@ -33,7 +33,7 @@ def redditLogin(username,password):
 def redditUpvote(client,uniqueID):
     url = 'http://www.reddit.com/api/vote'
     data = {'uh': client.modhash,'dir':1,'id':uniqueID}
-    client.headers = {'user-agent':'StarVote 0.2 by QD','X-Modhash':client.modhash}
+    client.headers = {'user-agent':'StarVote 0.3a by QD','X-Modhash':client.modhash}
     r = client.post(url,data=data,cookies={'reddit_session':client.cookie})
     return r
 
@@ -140,12 +140,12 @@ def welcome():
     print('')
     print('01010001 01000100')
     print('[/] Reddit Upvote Script by QD (c) 2015')
-    print('[/] Feature Requests: inside.QD@gmail.com')
+    print('[/] Feature Requests: QD@dstrctv.io')
     print('-------------------------------------------------')
     print('')
 
 def menu():
-    print('     StarVote v0.2')
+    print('     StarVote v0.3a')
     print(u'\u2554' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
@@ -171,5 +171,5 @@ def main():
     switch(switchChoice)
 
 main()
-print('[/] StarVote v0.2 finished its job. QD <3')
+print('[/] StarVote v0.3a finished its job. QD <3')
 time.sleep(10)

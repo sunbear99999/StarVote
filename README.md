@@ -20,4 +20,4 @@ Todo:
 
 Dependencies: requests, colorama
 
-**Warning: You can be banned from Reddit using this bot.**
+**Warning: You can be banned from Reddit for using this bot.**
