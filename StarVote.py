@@ -145,23 +145,24 @@ def welcome():
     print('')
 
 def menu():
-    print('     StarVote v0.3a')
-    print(u'\u2554' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
+    output = ('     StarVote v0.3a' + '\n'
+            + u'\u2554' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
-            + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2557')
-    print(u'\u2551' + ' [1] Upvote Link       ' + u'\u2551')
-    print(u'\u2551' + ' [2] Upvote Comment    ' + u'\u2551')
-    print(u'\u2551' + ' [3] Register Accounts ' + u'\u2551')
-    print(u'\u2551' + ' [4] Set Sleep Timer   ' + u'\u2551')
-    print(u'\u2551' + '                       ' + u'\u2551')
-    print(u'\u255A' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
+            + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2557' + '\n'
+            + u'\u2551' + ' [1] Upvote Link       ' + u'\u2551' + '\n'
+            + u'\u2551' + ' [2] Upvote Comment    ' + u'\u2551' + '\n'    
+            + u'\u2551' + ' [3] Register Accounts ' + u'\u2551' + '\n'
+            + u'\u2551' + ' [4] Set Sleep Timer   ' + u'\u2551' + '\n'
+            + u'\u2551' + '                       ' + u'\u2551' + '\n'
+            + u'\u255A' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
             + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550'
-            + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u255D')
-    print(' ')
+            + u'\u2550' + u'\u2550' + u'\u2550' + u'\u2550' + u'\u255D' + '\n'
+            + ' ')
+    print(output.encode("utf-8"))
 
 def main():
     welcome()
